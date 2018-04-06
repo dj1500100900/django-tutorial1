@@ -37,6 +37,7 @@ class Topic(models.Model):
         pages = count / 20
         return math.ceil(pages)
 
+
     def has_many_pages(self, count=None):
         if count is None:
             count = self.get_page_count()
