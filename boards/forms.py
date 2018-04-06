@@ -2,6 +2,7 @@ from django import forms
 
 from .models import Post, Topic
 
+#TEST2
 
 class NewTopicForm(forms.ModelForm):
     message = forms.CharField(
