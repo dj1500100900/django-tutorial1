@@ -7,6 +7,7 @@ from django.utils.text import Truncator
 
 from markdown import markdown
 
+# TEST PYCHARM GIT SYNC
 
 class Board(models.Model):
     name = models.CharField(max_length=30, unique=True)
